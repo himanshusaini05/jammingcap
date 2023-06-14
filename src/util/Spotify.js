@@ -2,7 +2,7 @@ let accessToken;
 let userId;
 const clientId = `e7a02214c2bc434cad9eb00b680862cf`;
 const redirectUri =
-  "http://localhost:3000" // "http://localhost:3000"; // Must match spotify app setting exactly & include trailing slash.
+  "https://himanshusaini05.github.io/jammingcap/" // "http://localhost:3000"; // Must match spotify app setting exactly & include trailing slash.
 
   const Spotify = {
     getAccessToken() {
