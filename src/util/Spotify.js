@@ -1,6 +1,6 @@
 let accessToken;
 let userId;
-const clientId = `e7a02214c2bc434cad9eb00b680862cf`;
+const clientId = `${process.env.REACT_APP_SPOTIFY_CLIENT_ID}`;
 const redirectUri =
   "https://himanshusaini05.github.io/jammingcap/" // "http://localhost:3000"; // Must match spotify app setting exactly & include trailing slash.
 
